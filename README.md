@@ -1,40 +1,31 @@
-<<<<<<< HEAD
-# Flashcard-Saas-AI
-=======
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# StudyFuze.ai - AI Study Flashcards App
 
-## Getting Started
+Welcome to **StudyFuze.ai**, my AI-driven flashcards study application designed to make studying more efficient and personalized. The app is live at [StudyFuze.ai](https://flashcard-saas-k7diacmpd-harkirat78s-projects.vercel.app).
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I developed StudyFuze.ai to leverage advanced AI technologies that generate customized study flashcards based on user input. Whether you’re preparing for exams or need a quick review, StudyFuze.ai has got you covered.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **AI-Powered Flashcards**: I use OpenAI's GPT model to generate high-quality, relevant study materials.
+- **Stripe Integration**: Secure payment processing for premium features is managed through Stripe, allowing users to choose between Basic and Pro plans.
+- **Authentication**: Clerk handles the authentication, ensuring secure sign-in and sign-up processes.
+- **Backup with Google Gemini API**: In case OpenAI tokens run out, the app seamlessly switches to the Google Gemini API to continue generating flashcards.
+- **Data Storage**: All flashcards are saved in Firebase, allowing easy retrieval and continuity of study sessions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How It Works
 
-## Learn More
+1. **Authentication**: Sign in or sign up using Clerk for secure and smooth access.
+2. **Flashcard Creation**: Input your study material, and the AI, powered by OpenAI, will generate flashcards.
+3. **Payment Processing**: For premium features, payments are securely processed via Stripe.
+4. **Backup AI**: If OpenAI tokens are unavailable, the app will automatically switch to the Google Gemini API.
+5. **Data Storage**: Your generated flashcards are saved in Firebase for future access.
 
-To learn more about Next.js, take a look at the following resources:
+## Future Plans
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I plan to scale the app soon, allowing users to retrieve saved flashcards across multiple sessions, enhancing their study experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Live Demo
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
->>>>>>> f0d1cff (first)
+You can experience the app directly at [StudyFuze.ai](https://flashcard-saas-k7diacmpd-harkirat78s-projects.vercel.app).
